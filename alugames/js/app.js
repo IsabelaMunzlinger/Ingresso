@@ -1,7 +1,7 @@
 let alugar = 1;
 
 function contarEExibirJogosAlugados() {
-    console.log(`Total de jogos alugados: ${alugar}`);
+    console.log(`O total de jogos alugados: ${alugar}`);
 }
 
 function alterarStatus (id){
