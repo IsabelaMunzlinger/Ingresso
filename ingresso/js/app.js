@@ -9,7 +9,7 @@ function comprar(){
     let cadeiraSuperior = parseInt(cadeiraSuperiorElement.textContent);
     let cadeiraInferior = parseInt(cadeiraInferiorElement.textContent);
 
-    if(quantidade <= 0){
+    if(quantidade <= 0 || isNaN(quantidade)){
         alert('Adicione a quantidade positiva e diferente de zero.');
         document.getElementById('qtd').value = '';
         return;
